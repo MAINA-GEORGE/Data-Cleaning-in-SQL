@@ -1,7 +1,12 @@
+-- LAYOFFS DATASET 
+-- The data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 to present (20 July 2024).
+-- https://www.kaggle.com/datasets/swaptr/layoffs-2022
+
+
 -- data cleaning 
 
 
--- first thing we want to do is create a staging table. This is because we want to remain with the raw data incase a mistake happens to the data
+-- the first thing we want to do is create a staging table. This is because we want to remain with the raw data in case a mistake happens to the data
 
 INSERT layoffs_staging 
 SELECT * 
